@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "type": "typescript",
+            "tsconfig": "vendor/facade/ignition/tsconfig.json",
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "label": "tsc: build - vendor/facade/ignition/tsconfig.json"
+        }
+    ]
+}
